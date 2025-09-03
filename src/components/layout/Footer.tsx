@@ -12,19 +12,19 @@ export default function Footer() {
     {
       title: 'PrograMate',
       links: [
-        { name: 'Acerca de', href: '#about' },
-        { name: 'Roadmap', href: '#roadmap' },
-        { name: 'Equipo', href: '#team' },
-        { name: 'Whitepaper', href: '#whitepaper' },
+        { name: 'Acerca de', href: '#about', external: false },
+        { name: 'Roadmap', href: '#roadmap', external: false },
+        { name: 'Equipo', href: '#team', external: false },
+        { name: 'Whitepaper', href: '#whitepaper', external: false },
       ]
     },
     {
       title: 'Producto',
       links: [
-        { name: 'Dashboard', href: '/dashboard' },
-        { name: 'Token', href: '#token' },
-        { name: 'Staking', href: '#staking' },
-        { name: 'NFTs', href: '#nfts' },
+        { name: 'Dashboard', href: '/dashboard', external: false },
+        { name: 'Token', href: '#token', external: false },
+        { name: 'Staking', href: '#staking', external: false },
+        { name: 'NFTs', href: '#nfts', external: false },
       ]
     },
     {
@@ -39,10 +39,10 @@ export default function Footer() {
     {
       title: 'Soporte',
       links: [
-        { name: 'FAQ', href: '#faq' },
-        { name: 'Documentación', href: '#docs' },
-        { name: 'Contacto', href: '#contact' },
-        { name: 'Reportar Bug', href: '#bug-report' },
+        { name: 'FAQ', href: '#faq', external: false },
+        { name: 'Documentación', href: '#docs', external: false },
+        { name: 'Contacto', href: '#contact', external: false },
+        { name: 'Reportar Bug', href: '#bug-report', external: false },
       ]
     }
   ];

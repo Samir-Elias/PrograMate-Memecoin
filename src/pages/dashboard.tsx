@@ -15,7 +15,7 @@ import MarketStats from '@/components/dashboard/MarketStats';
  */
 export default function DashboardPage() {
   const [isConnected, setIsConnected] = useState(false);
-  const [tokenData, setTokenData] = useState(null);
+  const [tokenData, setTokenData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
