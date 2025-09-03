@@ -26,10 +26,11 @@ He estado pensando en nuestras fortalezas complementarias:
 - Arquitectura de software
 - Integración de APIs y sistemas
 
-### 📱 **Tu lado (Marketing & Comunidad):**
+### 📱 **Tu lado (Marketing & Trading):**
 - Estrategia de redes sociales
 - Creación de contenido viral
 - Gestión de comunidades
+- Análisis de mercado y trading
 - Relaciones públicas y networking
 
 ## 🎯 **La Visión: Juntos podemos crear algo épico**
@@ -65,10 +66,12 @@ He estado pensando en nuestras fortalezas complementarias:
 
 ## 🎭 **Roles Propuestos:**
 
-### **Tu Rol (Marketing & Comunidad):**
+### **Tu Rol (Marketing & Trading):**
 - [ ] Crear y gestionar cuentas de redes sociales
 - [ ] Desarrollar estrategia de contenido
 - [ ] Construir y moderar la comunidad
+- [ ] Análisis de mercado y tendencias
+- [ ] Estrategias de trading y timing
 - [ ] Relaciones con influencers y partners
 - [ ] Eventos y campañas virales
 
