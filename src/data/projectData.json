@@ -1,0 +1,152 @@
+{
+  "project": {
+    "name": "PrograMate",
+    "symbol": "MATE",
+    "description": "La primera memecoin para programadores que combina el mate argentino con la pasión por el código",
+    "shortDescription": "🧉 Memecoin para programadores en Solana",
+    "tagline": "Código, Mate y Lambos 🚀",
+    "version": "1.0.0",
+    "status": "development"
+  },
+  
+  "token": {
+    "network": "Solana",
+    "contractAddress": "TBD", // Dirección del contrato cuando se lance
+    "totalSupply": "1,000,000,000",
+    "decimals": 9,
+    "launchDate": "TBD",
+    "initialPrice": "0.0001",
+    "marketCap": "TBD"
+  },
+  
+  "social": {
+    "website": "https://programate.com",
+    "telegram": "https://t.me/programate",
+    "twitter": "https://twitter.com/programate",
+    "discord": "https://discord.gg/programate",
+    "github": "https://github.com/programate",
+    "medium": "https://medium.com/@programate"
+  },
+  
+  "team": {
+    "founders": [
+      {
+        "name": "Tu Nombre",
+        "role": "CEO & Developer",
+        "description": "Programador full-stack y trader de criptomonedas"
+      },
+      {
+        "name": "Tu Amigo",
+        "role": "CTO & Marketing",
+        "description": "Especialista en marketing digital y estrategia de comunidad"
+      }
+    ],
+    "advisors": [],
+    "partners": []
+  },
+  
+  "features": [
+    "Memecoin con utilidad real",
+    "Comunidad de programadores",
+    "Integración con Solana",
+    "Dashboard en tiempo real",
+    "Sistema de recompensas",
+    "NFTs exclusivos",
+    "Staking rewards",
+    "Governance token"
+  ],
+  
+  "roadmap": {
+    "phase1": {
+      "title": "MVP y Lanzamiento",
+      "description": "Desarrollo del MVP y lanzamiento inicial del token",
+      "milestones": [
+        "Desarrollo del dashboard",
+        "Lanzamiento del token en pump.fun",
+        "Creación de redes sociales",
+        "Primeros 100 holders"
+      ],
+      "timeline": "Q1 2024",
+      "status": "in-progress"
+    },
+    "phase2": {
+      "title": "Expansión de Comunidad",
+      "description": "Crecimiento de la comunidad y desarrollo de utilidades",
+      "milestones": [
+        "Sistema de staking",
+        "Marketplace de NFTs",
+        "Partnerships estratégicos",
+        "10,000 holders"
+      ],
+      "timeline": "Q2 2024",
+      "status": "planned"
+    },
+    "phase3": {
+      "title": "Ecosistema Completo",
+      "description": "Desarrollo del ecosistema completo de PrograMate",
+      "milestones": [
+        "DEX propio",
+        "Governance DAO",
+        "Integración con más redes",
+        "100,000 holders"
+      ],
+      "timeline": "Q3-Q4 2024",
+      "status": "planned"
+    }
+  },
+  
+  "community": {
+    "targetAudience": [
+      "Programadores y desarrolladores",
+      "Traders de criptomonedas",
+      "Entusiastas de blockchain",
+      "Comunidad argentina",
+      "Estudiantes de programación"
+    ],
+    "engagement": {
+      "dailyActiveUsers": 0,
+      "totalMembers": 0,
+      "growthRate": "0%"
+    }
+  },
+  
+  "marketing": {
+    "campaigns": [
+      {
+        "name": "Launch Campaign",
+        "description": "Campaña de lanzamiento inicial",
+        "budget": "TBD",
+        "status": "planned"
+      }
+    ],
+    "influencers": [],
+    "partnerships": []
+  },
+  
+  "technical": {
+    "frontend": "Next.js + TypeScript + Tailwind CSS",
+    "backend": "Node.js + Express",
+    "blockchain": "Solana",
+    "database": "JSON + Local Storage",
+    "deployment": "Vercel",
+    "analytics": "Google Analytics + Custom Dashboard"
+  },
+  
+  "legal": {
+    "termsOfService": "TBD",
+    "privacyPolicy": "TBD",
+    "disclaimer": "Este es un proyecto experimental. Invertir en criptomonedas conlleva riesgos.",
+    "compliance": "TBD"
+  },
+  
+  "metrics": {
+    "holders": 0,
+    "transactions": 0,
+    "volume24h": 0,
+    "priceChange24h": 0,
+    "socialMentions": 0
+  },
+  
+  "lastUpdated": "2024-01-01T00:00:00Z",
+  "nextUpdate": "2024-01-15T00:00:00Z"
+}

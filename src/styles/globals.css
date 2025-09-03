@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importar fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+/* Estilos base personalizados */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-code-50 text-code-900 font-display;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+  
+  /* Estilos para scrollbar personalizada */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-code-100;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-mate-400 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-mate-500;
+  }
+}
+
+/* Componentes personalizados */
+@layer components {
+  /* Botón principal de PrograMate */
+  .btn-mate {
+    @apply bg-mate-500 hover:bg-mate-600 text-white font-semibold py-3 px-6 rounded-lg 
+           transition-all duration-300 transform hover:scale-105 hover:shadow-mate 
+           focus:outline-none focus:ring-2 focus:ring-mate-400 focus:ring-offset-2;
+  }
+  
+  /* Botón secundario */
+  .btn-secondary {
+    @apply bg-code-200 hover:bg-code-300 text-code-800 font-semibold py-3 px-6 rounded-lg 
+           transition-all duration-300 transform hover:scale-105 
+           focus:outline-none focus:ring-2 focus:ring-code-400 focus:ring-offset-2;
+  }
+  
+  /* Card principal */
+  .card-mate {
+    @apply bg-white rounded-2xl shadow-mate border border-mate-100 p-6 
+           hover:shadow-mate-lg transition-all duration-300 transform hover:-translate-y-1;
+  }
+  
+  /* Input personalizado */
+  .input-mate {
+    @apply w-full px-4 py-3 border border-code-300 rounded-lg focus:ring-2 
+           focus:ring-mate-400 focus:border-transparent transition-all duration-200
+           placeholder-code-400;
+  }
+  
+  /* Badge de estado */
+  .badge-status {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .badge-success {
+    @apply bg-mate-100 text-mate-800;
+  }
+  
+  .badge-warning {
+    @apply bg-accent-100 text-accent-800;
+  }
+  
+  .badge-error {
+    @apply bg-red-100 text-red-800;
+  }
+}
+
+/* Utilidades personalizadas */
+@layer utilities {
+  /* Gradiente de mate */
+  .bg-mate-gradient {
+    @apply bg-gradient-to-br from-mate-400 via-mate-500 to-mate-600;
+  }
+  
+  /* Texto con sombra de mate */
+  .text-mate-shadow {
+    text-shadow: 2px 2px 4px rgba(34, 197, 94, 0.3);
+  }
+  
+  /* Animación de typing para código */
+  .typing-animation {
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Efecto de glassmorphism */
+  .glass {
+    @apply bg-white/20 backdrop-blur-md border border-white/30;
+  }
+  
+  /* Efecto de neón para elementos importantes */
+  .neon-glow {
+    @apply shadow-[0_0_20px_rgba(34,197,94,0.5)] border border-mate-400;
+  }
+}
+
+/* Keyframes personalizados */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: theme('colors.mate.500'); }
+}
+
+/* Estilos para modo oscuro (futuro) */
+@media (prefers-color-scheme: dark) {
+  .dark-mode {
+    @apply bg-code-900 text-code-100;
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .mobile-optimized {
+    @apply px-4 py-3 text-sm;
+  }
+}
